@@ -1,0 +1,36 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:prod": " NODE_ENV=production nodemon server.js",
+    "start:dev": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Kunga Tashi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "slugify": "^1.3.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.2",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
